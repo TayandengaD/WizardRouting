@@ -26,17 +26,17 @@
                 <h5>Contact Details</h5>
               </div>
             </div>
-            <div class="col-lg-3 text-center p-3" style="border-top: solid 5px #b2cfe4">
+            <div class="col-lg-3 text-center p-3" style="border-top: solid 5px red">
               <div>
-                <span class="badge badge-pill badge-secondary p-4" style="font-size:20px">3</span>
+                <span class="badge badge-pill badge-success p-4" style="font-size:20px">3</span>
               </div>
               <div>
                 <h5>Skills</h5>
               </div>
             </div>
-            <div class="col-lg-3 text-center p-3" style="border-top: solid 5px #b2cfe4">
+            <div class="col-lg-3 text-center p-3" style="border-top: solid 5px red">
               <div>
-                <span class="badge badge-pill badge-secondary p-4" style="font-size:20px">4</span>
+                <span class="badge badge-pill badge-success p-4" style="font-size:20px">4</span>
               </div>
               <div>
                 <h5>Work Experience</h5>
@@ -46,39 +46,34 @@
         </div>
         <!-- box 1 ends -->
         <div class="box-2 pt-2">
-          <h3>Step 2: Contact Details</h3>
+          <h3>Step 4: Work Experience Details</h3>
 
           <div class="row">
             <div class="col-xl-9 mx-auto mt-3">
-
-              <!-- Email -->
+              <!-- Skill-1 -->
               <div class="form-group form-row">
-                <label for="email" class="col-md-3 col-form-label">Email</label>
+                <label for="job-1" class="col-md-3 col-form-label">Job 1</label>
                 <div class="col-md-9">
-                  <input type="text" class="form-control" name="email" id="email">
+                  <input type="text" class="form-control" name="job-1" id="job-1">
                 </div>
               </div>
-
-              <!-- Mobile -->
               <div class="form-group form-row">
-                <label for="mobile" class="col-md-3 col-form-label">Mobile</label>
+                <label for="job-2" class="col-md-3 col-form-label">Job 2</label>
                 <div class="col-md-9">
-                  <input type="text" class="form-control" name="mobile" id="mobile">
+                  <input type="text" class="form-control" name="job-2" id="job-2">
                 </div>
               </div>
-
-              <!-- Country -->
               <div class="form-group form-row">
-                <label for="country" class="col-md-3 col-form-label">Country</label>
+                <label for="job-3" class="col-md-3 col-form-label">Job 3</label>
                 <div class="col-md-9">
-                  <input type="text" class="form-control" name="country" id="country">
+                  <input type="text" class="form-control" name="job-3" id="job-3">
                 </div>
               </div>
             </div>
           </div>
           <div class="card-footer text-right bg-white">
-            <a class="btn btn-danger margin-right" [routerLink]="['/step-1']">Back</a>
-            <a class="btn btn-success" [routerLink]="['/step-3']">Next</a>
+            <a class="btn btn-danger margin-right" [routerLink]="['/step-3']">Back</a>
+            <a class="btn btn-success" [routerLink]="['/wizard-finished']">Next</a>
           </div>
         </div>
       </div>
